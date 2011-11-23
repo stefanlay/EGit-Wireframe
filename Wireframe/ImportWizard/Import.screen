@@ -30,7 +30,7 @@
   <widgets xsi:type="model:Button" id="8" x="196" y="478" width="80" height="22" text="&lt; Back" measuredWidth="80" measuredHeight="22" state="disabled">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Button" id="9" x="276" y="478" width="80" height="22" text="Next >" measuredWidth="80" measuredHeight="22">
+  <widgets xsi:type="model:Button" id="9" x="276" y="478" width="80" height="22" text="Next >" measuredWidth="80" measuredHeight="22" link="ImportSource.screen">
     <font/>
   </widgets>
   <widgets xsi:type="model:Button" id="10" x="362" y="478" width="80" height="22" text="Finish" measuredWidth="80" measuredHeight="22" state="disabled">

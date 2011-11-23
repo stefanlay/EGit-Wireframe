@@ -22,7 +22,7 @@
   <widgets xsi:type="model:Button" id="10" x="151" y="529" width="92" height="25" text="&lt; Back" measuredWidth="92" measuredHeight="25">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Button" id="11" x="243" y="529" width="92" height="25" text="Next >" measuredWidth="92" measuredHeight="25" state="disabled">
+  <widgets xsi:type="model:Button" id="11" x="243" y="529" width="92" height="25" text="Next >" measuredWidth="92" measuredHeight="25" link="BranchSelection.screen">
     <font/>
   </widgets>
   <widgets xsi:type="model:Button" id="12" x="341" y="529" width="92" height="25" text="Finish" measuredWidth="92" measuredHeight="25">

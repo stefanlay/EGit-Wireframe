@@ -2,19 +2,13 @@
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
   <widgets xsi:type="model:Window" id="1" x="25" y="25" width="525" height="550" measuredWidth="525" measuredHeight="550" maximizeButton="true"/>
   <widgets xsi:type="model:HLine" id="2" x="33" y="121" width="509" measuredWidth="509" measuredHeight="6"/>
-  <widgets xsi:type="model:Label" id="3" x="43" y="137" text="Search for repositories written in" measuredWidth="175" measuredHeight="23">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Combo" id="4" x="219" y="133" width="186" text="Java" measuredWidth="186" measuredHeight="23">
-    <font/>
-  </widgets>
   <widgets xsi:type="model:TextField" id="5" x="43" y="163" width="436" text="EGit" measuredWidth="436" measuredHeight="23">
     <font/>
   </widgets>
   <widgets xsi:type="model:Button" id="6" x="485" y="161" width="47" height="25" text="Search" measuredWidth="47" measuredHeight="25">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Table" id="7" x="43" y="191" width="489" height="264" text="eclipse/egit (Java) (5 forks, 36 watchers)&#xA;eclipse/egit-github (Java) (12 forks, 62 watchers)&#xA;android/tools_egit (Java) (5 forks, 7 watchers)&#xA;sonatype/m2eclipse-egit (Java) (3 forks, 6 watchers)&#xA;ff8711/HelloWorld (Java) (3 forks, 5 watchers)&#xA;j16sdiz/egit-freenet (Java) (3 forks, 4 watchers)&#xA;yanns/egit (Java) (0 forks, 3 watchers)&#xA;chalstrick/egit (Java) (3 forks, 3 watchers)&#xA;eclipse/egit-pde (Java) (2 forks, 3 watchers)&#xA;GeekForSale/HelloEgit (Java) (2 forks, 2 watchers)&#xA;robinst/egit (Java) (0 forks, 2 watchers)&#xA;spearce/egit (Java) (1 fork, 2 watchers)&#xA;snjeza/jbossm2egit (Java) (2 forks, 2 watchers)&#xA;Jan84-edu/Hello-Git- (Java) (1 fork, 2 watchers)&#xA;" measuredWidth="489" measuredHeight="264" selection="1" verticalScrollbar="true" alternative="#eeeeee" header="false">
+  <widgets xsi:type="model:Table" id="7" x="43" y="191" width="489" height="264" text="eclipse/egit&#xA;eclipse/egit-github&#xA;" measuredWidth="489" measuredHeight="264" selection="1" verticalScrollbar="true" alternative="#eeeeee" header="false">
     <font/>
   </widgets>
   <widgets xsi:type="model:HLine" id="8" x="33" y="514" width="509" measuredWidth="509" measuredHeight="6"/>
@@ -22,7 +16,7 @@
   <widgets xsi:type="model:Button" id="10" x="151" y="529" width="92" height="25" text="&lt; Back" measuredWidth="92" measuredHeight="25">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Button" id="11" x="243" y="529" width="92" height="25" text="Next >" measuredWidth="92" measuredHeight="25" state="disabled">
+  <widgets xsi:type="model:Button" id="11" x="243" y="529" width="92" height="25" text="Next >" measuredWidth="92" measuredHeight="25" link="GerritConfiguration.screen">
     <font/>
   </widgets>
   <widgets xsi:type="model:Button" id="12" x="341" y="529" width="92" height="25" text="Finish" measuredWidth="92" measuredHeight="25">
@@ -32,11 +26,11 @@
     <font/>
   </widgets>
   <widgets xsi:type="model:Placeholder" id="14" x="467" y="55" width="75" height="66" measuredWidth="75" measuredHeight="66"/>
-  <widgets xsi:type="model:Label" id="15" x="39" y="63" text="Import Git repositories from GitHub" measuredWidth="207" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="15" x="39" y="63" text="Import Git repositories from Gerrit" measuredWidth="201" measuredHeight="23">
     <font bold="true"/>
   </widgets>
   <widgets xsi:type="model:Placeholder" id="16" x="38" y="88" width="16" height="16" measuredWidth="16" measuredHeight="16"/>
-  <widgets xsi:type="model:Text" id="17" x="54" y="88" width="413" height="33" text=" Found 100 repositories" measuredWidth="413" measuredHeight="33">
+  <widgets xsi:type="model:Text" id="17" x="54" y="88" width="413" height="33" text=" Found 2 repositories" measuredWidth="413" measuredHeight="33">
     <font/>
   </widgets>
   <hRuler/>
