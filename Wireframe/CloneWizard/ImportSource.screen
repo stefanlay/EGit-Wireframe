@@ -2,13 +2,12 @@
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
   <widgets xsi:type="model:Window" id="1" x="25" y="25" width="525" height="500" text="Import Projects from Git" measuredWidth="525" measuredHeight="500" maximizeButton="true"/>
   <widgets xsi:type="model:HLine" id="2" x="33" y="121" width="509" measuredWidth="509" measuredHeight="6"/>
-  <widgets xsi:type="model:Tree" id="3" x="43" y="133" width="489" height="231" text="Local&#xA;Custom URL&#xA;Gerrit&#xA;Github&#xA;GitBlit&#xA;ProjectPortal&#xA;" measuredWidth="489" measuredHeight="231">
-    <items link="LocalRepo.screen" x="0" y="5" width="489" height="21" text="Local"/>
-    <items link="URL.screen" x="0" y="26" width="489" height="21" text="Custom URL"/>
-    <items link="GerritURL.screen" x="0" y="47" width="489" height="21" text="Gerrit"/>
-    <items link="Github.screen" x="0" y="68" width="489" height="21" text="Github"/>
-    <items link="GitBlitURL.screen" x="0" y="89" width="489" height="21" text="GitBlit"/>
-    <items link="ProjectPortalURL.screen" x="0" y="110" width="489" height="21" text="ProjectPortal"/>
+  <widgets xsi:type="model:Tree" id="3" x="43" y="133" width="489" height="231" text="Custom URL&#xA;Gerrit&#xA;Github&#xA;GitBlit&#xA;ProjectPortal&#xA;" measuredWidth="489" measuredHeight="231">
+    <items link="URL.screen" x="0" y="5" width="489" height="21" text="Custom URL"/>
+    <items link="Gerrit.screen" x="0" y="26" width="489" height="21" text="Gerrit"/>
+    <items link="Github.screen" x="0" y="47" width="489" height="21" text="Github"/>
+    <items link="GitBlit.screen" x="0" y="68" width="489" height="21" text="GitBlit"/>
+    <items link="ProjectPortal.screen" x="0" y="89" width="489" height="21" text="ProjectPortal"/>
   </widgets>
   <widgets xsi:type="model:HLine" id="6" x="33" y="464" width="509" measuredWidth="509" measuredHeight="6"/>
   <widgets xsi:type="model:Icon" id="7" x="50" y="482" width="25" height="24" measuredWidth="25" measuredHeight="24" icon="image (small)"/>

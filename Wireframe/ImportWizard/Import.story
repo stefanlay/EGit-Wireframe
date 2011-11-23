@@ -10,7 +10,7 @@
     <screen href="LocalRepo.screen#/"/>
   </panels>
   <panels x="675" y="75">
-    <screen href="URL.screen#/"/>
+    <screen href="GerritURL.screen#/"/>
   </panels>
   <panels x="75" y="375">
     <screen href="Gerrit.screen#/"/>
