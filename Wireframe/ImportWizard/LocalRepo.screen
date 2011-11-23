@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Window" id="1" x="25" y="25" width="611" height="570" text="Import Projects from Git" measuredWidth="611" measuredHeight="570" maximizeButton="true"/>
+  <widgets xsi:type="model:HLine" id="2" x="33" y="121" width="595" measuredWidth="595" measuredHeight="6"/>
+  <widgets xsi:type="model:TextField" id="3" x="40" y="130" width="502" measuredWidth="502" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Tree" id="4" x="38" y="153" width="527" height="327" text="HelloGitHub - C:\Users\D044495\git\HelloGitHub&#xA;calculator - C:\Users\D044495\git\calculator&#xA;calulator - C:\Users\D044495\git\calulator&#xA;cdk - C:\Users\D044495\git\cdk&#xA;com.sap.core.monitoring.distribution - C:\Users\D044495\git\com.sap.core.monitoring.distribution&#xA;dcm_web_sec - C:\Users\D044495\git\dcm_web_sec&#xA;egit - C:\Users\D044495\git\egit&#xA;egit-training - C:\Users\D044495\git\egit-training&#xA;egit-training2 - C:\Users\D044495\git\egit-training2&#xA;egit-training3 - C:\Users\D044495\git\egit-training3&#xA;http-request - C:\Users\D044495\git\kevinsawicki\http-request&#xA;jgit - C:\Users\D044495\git\jgit&#xA;m2eclipse-egit - C:\Users\D044495\git\sonatype\m2eclipse-egit&#xA;myproject - C:\Users\D044495\git\myproject&#xA;newproject - C:\Users\D044495\git\newproject&#xA;org.eclipse.skalli - C:\Users\D044495\git\org.eclipse.skalli&#xA;projecta - C:\Users\D044495\git\projecta&#xA;" measuredWidth="527" measuredHeight="327">
+    <items x="0" y="5" width="527" height="21" text="HelloGitHub - C:\Users\D044495\git\HelloGitHub"/>
+    <items x="0" y="26" width="527" height="21" text="calculator - C:\Users\D044495\git\calculator"/>
+    <items x="0" y="47" width="527" height="21" text="calulator - C:\Users\D044495\git\calulator"/>
+    <items x="0" y="68" width="527" height="21" text="cdk - C:\Users\D044495\git\cdk"/>
+    <items x="0" y="89" width="527" height="21" text="com.sap.core.monitoring.distribution - C:\Users\D044495\git\com.sap.core.monitoring.distribution"/>
+    <items x="0" y="110" width="527" height="21" text="dcm_web_sec - C:\Users\D044495\git\dcm_web_sec"/>
+    <items x="0" y="131" width="527" height="21" text="egit - C:\Users\D044495\git\egit"/>
+    <items x="0" y="152" width="527" height="21" text="egit-training - C:\Users\D044495\git\egit-training"/>
+    <items x="0" y="173" width="527" height="21" text="egit-training2 - C:\Users\D044495\git\egit-training2"/>
+    <items x="0" y="194" width="527" height="21" text="egit-training3 - C:\Users\D044495\git\egit-training3"/>
+    <items x="0" y="215" width="527" height="21" text="http-request - C:\Users\D044495\git\kevinsawicki\http-request"/>
+    <items x="0" y="236" width="527" height="21" text="jgit - C:\Users\D044495\git\jgit"/>
+    <items x="0" y="257" width="527" height="21" text="m2eclipse-egit - C:\Users\D044495\git\sonatype\m2eclipse-egit"/>
+    <items x="0" y="278" width="527" height="21" text="myproject - C:\Users\D044495\git\myproject"/>
+    <items x="0" y="299" width="527" height="21" text="newproject - C:\Users\D044495\git\newproject"/>
+    <items x="0" y="320" width="527" height="21" text="org.eclipse.skalli - C:\Users\D044495\git\org.eclipse.skalli"/>
+    <items x="0" y="341" width="527" height="21" text="projecta - C:\Users\D044495\git\projecta"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="6" x="571" y="131" width="52" text="Add..." measuredWidth="52" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="7" x="33" y="534" width="595" measuredWidth="595" measuredHeight="6"/>
+  <widgets xsi:type="model:Icon" id="8" x="50" y="552" width="25" height="24" measuredWidth="25" measuredHeight="24" icon="image (small)"/>
+  <widgets xsi:type="model:Button" id="9" x="237" y="549" width="92" height="25" text="&lt; Back" measuredWidth="92" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="10" x="329" y="549" width="92" height="25" text="Next >" measuredWidth="92" measuredHeight="25" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="11" x="427" y="549" width="92" height="25" text="Finish" measuredWidth="92" measuredHeight="25" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="12" x="525" y="549" width="92" height="25" text="Cancel" measuredWidth="92" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Placeholder" id="13" x="553" y="55" width="75" height="66" measuredWidth="75" measuredHeight="66"/>
+  <widgets xsi:type="model:Label" id="14" x="39" y="63" text="Select a Git Repository" measuredWidth="132" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="15" x="44" y="88" width="509" height="33" text="You can also add local repositories to the list" measuredWidth="509" measuredHeight="33">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Window" id="1" x="25" y="25" width="525" height="550" measuredWidth="525" measuredHeight="550" maximizeButton="true"/>
+  <widgets xsi:type="model:HLine" id="2" x="33" y="121" width="509" measuredWidth="509" measuredHeight="6"/>
+  <widgets xsi:type="model:TextField" id="5" x="43" y="163" width="436" text="EGit" measuredWidth="436" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="6" x="485" y="161" width="47" height="25" text="Search" measuredWidth="47" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="7" x="43" y="191" width="489" height="264" text="eclipse/egit &#xA;eclipse/egit-github&#xA;" measuredWidth="489" measuredHeight="264" selection="1" verticalScrollbar="true" alternative="#eeeeee" header="false">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="8" x="33" y="514" width="509" measuredWidth="509" measuredHeight="6"/>
+  <widgets xsi:type="model:Icon" id="9" x="50" y="532" width="25" height="24" measuredWidth="25" measuredHeight="24" icon="image (small)"/>
+  <widgets xsi:type="model:Button" id="10" x="151" y="529" width="92" height="25" text="&lt; Back" measuredWidth="92" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="11" x="243" y="529" width="92" height="25" text="Next >" measuredWidth="92" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="12" x="341" y="529" width="92" height="25" text="Finish" measuredWidth="92" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="13" x="439" y="529" width="92" height="25" text="Cancel" measuredWidth="92" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Placeholder" id="14" x="467" y="55" width="75" height="66" measuredWidth="75" measuredHeight="66"/>
+  <widgets xsi:type="model:Label" id="15" x="39" y="63" text="Import Git repositories from ProjectPortal" measuredWidth="240" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Placeholder" id="16" x="38" y="88" width="16" height="16" measuredWidth="16" measuredHeight="16"/>
+  <widgets xsi:type="model:Text" id="17" x="54" y="88" width="413" height="33" text=" Found 2 repositories" measuredWidth="413" measuredHeight="33">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="1" x="136" y="136" width="343" text="DevInf" measuredWidth="343" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="2" x="47" y="136" text="Parent Project:" measuredWidth="82" measuredHeight="23">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

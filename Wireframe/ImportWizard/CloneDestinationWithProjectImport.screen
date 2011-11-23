@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Window" id="1" x="25" y="25" width="582" height="570" text="Import Projects from Git" measuredWidth="582" measuredHeight="570" maximizeButton="true"/>
+  <widgets xsi:type="model:HLine" id="2" x="33" y="121" width="566" measuredWidth="566" measuredHeight="6"/>
+  <widgets xsi:type="model:Group" id="3" x="43" y="133" width="546" height="86" text="Wizard for project import" measuredWidth="546" measuredHeight="86">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="4" x="51" y="153" text="Import existing projects" measuredWidth="144" measuredHeight="23" selected="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="5" x="51" y="174" text="Use the New Projects wizard" measuredWidth="168" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="6" x="51" y="195" text="Import as general project" measuredWidth="152" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Tree" id="7" x="43" y="224" width="546" height="251" text="Working Directory - C:\Users\D044495\git\egit&#xA;-.git&#xA;-org.eclipse.egit&#xA;-org.eclipse.egit-feature&#xA;-org.eclipse.egit-updatesite&#xA;-org.eclipse.egit.core&#xA;-org.eclipse.egit.core.test&#xA;-org.eclipse.egit.doc&#xA;-org.eclipse.egit.mylyn.ui&#xA;-org.eclipse.egit.source-feature&#xA;-org.eclipse.egit.ui&#xA;-org.eclipse.egit.ui.test&#xA;-tools&#xA;-.eclipse_iplog&#xA;-.gitattributes&#xA;-EGIT_INSTALL&#xA;-LICENSE&#xA;-pom.xml&#xA;-README&#xA;-SUBMITTING_PATCHES&#xA;" measuredWidth="546" measuredHeight="251">
+    <items x="0" y="5" width="546" height="21" text="Working Directory - C:\Users\D044495\git\egit"/>
+    <items x="0" y="26" width="546" height="21" text="-.git"/>
+    <items x="0" y="47" width="546" height="21" text="-org.eclipse.egit"/>
+    <items x="0" y="68" width="546" height="21" text="-org.eclipse.egit-feature"/>
+    <items x="0" y="89" width="546" height="21" text="-org.eclipse.egit-updatesite"/>
+    <items x="0" y="110" width="546" height="21" text="-org.eclipse.egit.core"/>
+    <items x="0" y="131" width="546" height="21" text="-org.eclipse.egit.core.test"/>
+    <items x="0" y="152" width="546" height="21" text="-org.eclipse.egit.doc"/>
+    <items x="0" y="173" width="546" height="21" text="-org.eclipse.egit.mylyn.ui"/>
+    <items x="0" y="194" width="546" height="21" text="-org.eclipse.egit.source-feature"/>
+    <items x="0" y="215" width="546" height="21" text="-org.eclipse.egit.ui"/>
+    <items x="0" y="236" width="546" height="21" text="-org.eclipse.egit.ui.test"/>
+    <items x="0" y="257" width="546" height="21" text="-tools"/>
+    <items x="0" y="278" width="546" height="21" text="-.eclipse_iplog"/>
+    <items x="0" y="299" width="546" height="21" text="-.gitattributes"/>
+    <items x="0" y="320" width="546" height="21" text="-EGIT_INSTALL"/>
+    <items x="0" y="341" width="546" height="21" text="-LICENSE"/>
+    <items x="0" y="362" width="546" height="21" text="-pom.xml"/>
+    <items x="0" y="383" width="546" height="21" text="-README"/>
+    <items x="0" y="404" width="546" height="21" text="-SUBMITTING_PATCHES"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="8" x="33" y="534" width="566" measuredWidth="566" measuredHeight="6"/>
+  <widgets xsi:type="model:Icon" id="9" x="50" y="552" width="25" height="24" measuredWidth="25" measuredHeight="24" icon="image (small)"/>
+  <widgets xsi:type="model:Button" id="10" x="208" y="549" width="92" height="25" text="&lt; Back" measuredWidth="92" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="11" x="300" y="549" width="92" height="25" text="Next >" measuredWidth="92" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="12" x="398" y="549" width="92" height="25" text="Finish" measuredWidth="92" measuredHeight="25" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="13" x="496" y="549" width="92" height="25" text="Cancel" measuredWidth="92" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Placeholder" id="14" x="524" y="55" width="75" height="66" measuredWidth="75" measuredHeight="66"/>
+  <widgets xsi:type="model:Label" id="15" x="39" y="63" text="Select a wizard to use for importing projects" measuredWidth="252" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="16" x="44" y="88" width="480" height="33" text="Depending on the wizard, you may select a directory to determine the wizard's scope" measuredWidth="480" measuredHeight="33">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>

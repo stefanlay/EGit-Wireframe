@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Window" id="1" x="25" y="25" width="582" height="570" text="Import Projects from Git" measuredWidth="582" measuredHeight="570" maximizeButton="true"/>
+  <widgets xsi:type="model:HLine" id="2" x="33" y="121" width="566" measuredWidth="566" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="3" x="43" y="148" text="Projects" measuredWidth="47" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="4" x="45" y="175" width="424" measuredWidth="424" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Tree" id="5" x="43" y="198" width="449" height="183" text="org.eclipse.egit (C:\Users\D044495\git\egit\org.eclipse.egit)&#xA;org.eclipse.egit-feature (C:\Users\D044495\git\egit\org.eclipse.egit-feature)&#xA;org.eclipse.egit-updatesite (C:\Users\D044495\git\egit\org.eclipse.egit-updatesite)&#xA;org.eclipse.egit.core (C:\Users\D044495\git\egit\org.eclipse.egit.core)&#xA;org.eclipse.egit.core.test (C:\Users\D044495\git\egit\org.eclipse.egit.core.test)&#xA;org.eclipse.egit.doc (C:\Users\D044495\git\egit\org.eclipse.egit.doc)&#xA;org.eclipse.egit.source-feature (C:\Users\D044495\git\egit\org.eclipse.egit.source-feature)&#xA;org.eclipse.egit.ui (C:\Users\D044495\git\egit\org.eclipse.egit.ui)&#xA;org.eclipse.egit.ui.test (C:\Users\D044495\git\egit\org.eclipse.egit.ui.test)&#xA;" measuredWidth="449" measuredHeight="183">
+    <items x="0" y="5" width="449" height="21" text="org.eclipse.egit (C:\Users\D044495\git\egit\org.eclipse.egit)"/>
+    <items x="0" y="26" width="449" height="21" text="org.eclipse.egit-feature (C:\Users\D044495\git\egit\org.eclipse.egit-feature)"/>
+    <items x="0" y="47" width="449" height="21" text="org.eclipse.egit-updatesite (C:\Users\D044495\git\egit\org.eclipse.egit-updatesite)"/>
+    <items x="0" y="68" width="449" height="21" text="org.eclipse.egit.core (C:\Users\D044495\git\egit\org.eclipse.egit.core)"/>
+    <items x="0" y="89" width="449" height="21" text="org.eclipse.egit.core.test (C:\Users\D044495\git\egit\org.eclipse.egit.core.test)"/>
+    <items x="0" y="110" width="449" height="21" text="org.eclipse.egit.doc (C:\Users\D044495\git\egit\org.eclipse.egit.doc)"/>
+    <items x="0" y="131" width="449" height="21" text="org.eclipse.egit.source-feature (C:\Users\D044495\git\egit\org.eclipse.egit.source-feature)"/>
+    <items x="0" y="152" width="449" height="21" text="org.eclipse.egit.ui (C:\Users\D044495\git\egit\org.eclipse.egit.ui)"/>
+    <items x="0" y="173" width="449" height="21" text="org.eclipse.egit.ui.test (C:\Users\D044495\git\egit\org.eclipse.egit.ui.test)"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="6" x="497" y="173" width="92" height="25" text="Select All" measuredWidth="92" measuredHeight="25" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="7" x="497" y="203" width="92" height="25" text="Deselect All" measuredWidth="92" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="8" x="43" y="391" width="546" height="84" text="Working sets" measuredWidth="546" measuredHeight="84">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="9" x="56" y="416" text="Add project to working sets" measuredWidth="166" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="10" x="56" y="442" text="Working sets:" measuredWidth="76" measuredHeight="23" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="11" x="132" y="438" width="347" measuredWidth="347" measuredHeight="23" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="12" x="484" y="437" width="92" height="25" text="Select..." measuredWidth="92" measuredHeight="25" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="13" x="33" y="534" width="566" measuredWidth="566" measuredHeight="6"/>
+  <widgets xsi:type="model:Icon" id="14" x="50" y="552" width="25" height="24" measuredWidth="25" measuredHeight="24" icon="image (small)"/>
+  <widgets xsi:type="model:Button" id="15" x="208" y="549" width="92" height="25" text="&lt; Back" measuredWidth="92" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="16" x="300" y="549" width="92" height="25" text="Next >" measuredWidth="92" measuredHeight="25" state="disabled">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="17" x="398" y="549" width="92" height="25" text="Finish" measuredWidth="92" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="18" x="496" y="549" width="92" height="25" text="Cancel" measuredWidth="92" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Placeholder" id="19" x="524" y="55" width="75" height="66" measuredWidth="75" measuredHeight="66"/>
+  <widgets xsi:type="model:Label" id="20" x="39" y="63" text="Import Projects" measuredWidth="92" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="21" x="44" y="88" width="480" height="33" text="Import projects from a Git repository" measuredWidth="480" measuredHeight="33">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font/>
+</model:Screen>
