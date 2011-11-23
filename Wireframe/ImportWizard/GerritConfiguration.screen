@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
-  <widgets xsi:type="model:Window" id="1" x="25" y="25" width="572" height="535" text="Clone Git Repository" measuredWidth="572" measuredHeight="535" maximizeButton="true"/>
+  <widgets xsi:type="model:Window" id="1" x="25" y="25" width="572" height="535" text="Import Projects from Git" measuredWidth="572" measuredHeight="535" maximizeButton="true"/>
   <widgets xsi:type="model:HLine" id="2" x="33" y="121" width="556" measuredWidth="556" measuredHeight="6"/>
   <widgets xsi:type="model:Checkbox" id="3" x="43" y="133" text="Configure Push to Gerrit Code Review" measuredWidth="220" measuredHeight="23" selected="true">
     <font/>

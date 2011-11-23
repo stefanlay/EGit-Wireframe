@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
-  <widgets xsi:type="model:Window" id="1" x="25" y="25" width="525" height="550" measuredWidth="525" measuredHeight="550" maximizeButton="true"/>
+  <widgets xsi:type="model:Window" id="1" x="25" y="25" width="525" height="550" text="Import Projects from Git" measuredWidth="525" measuredHeight="550" maximizeButton="true"/>
   <widgets xsi:type="model:HLine" id="2" x="33" y="121" width="509" measuredWidth="509" measuredHeight="6"/>
   <widgets xsi:type="model:TextField" id="5" x="43" y="163" width="436" text="EGit" measuredWidth="436" measuredHeight="23">
     <font/>
@@ -26,7 +26,7 @@
     <font/>
   </widgets>
   <widgets xsi:type="model:Placeholder" id="14" x="467" y="55" width="75" height="66" measuredWidth="75" measuredHeight="66"/>
-  <widgets xsi:type="model:Label" id="15" x="39" y="63" text="Import Git repositories from Gerrit" measuredWidth="201" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="15" x="39" y="63" text="Clone Git repositories from Gerrit" measuredWidth="193" measuredHeight="23">
     <font bold="true"/>
   </widgets>
   <widgets xsi:type="model:Placeholder" id="16" x="38" y="88" width="16" height="16" measuredWidth="16" measuredHeight="16"/>

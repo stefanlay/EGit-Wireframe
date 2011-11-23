@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
-  <widgets xsi:type="model:Window" id="3" x="62" y="26" width="525" height="550" measuredWidth="525" measuredHeight="550" maximizeButton="true"/>
+  <widgets xsi:type="model:Window" id="3" x="62" y="26" width="525" height="550" text="Import Projects from Git" measuredWidth="525" measuredHeight="550" maximizeButton="true"/>
   <widgets xsi:type="model:HLine" id="4" x="70" y="122" width="509" measuredWidth="509" measuredHeight="6"/>
   <widgets xsi:type="model:Label" id="5" x="80" y="138" text="Search for repositories written in" measuredWidth="175" measuredHeight="23">
     <font/>
@@ -32,7 +32,7 @@
     <font/>
   </widgets>
   <widgets xsi:type="model:Placeholder" id="16" x="504" y="56" width="75" height="66" measuredWidth="75" measuredHeight="66"/>
-  <widgets xsi:type="model:Label" id="17" x="76" y="64" text="Import Git repositories from GitHub" measuredWidth="207" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="17" x="76" y="64" text="Clone Git repositories from GitHub" measuredWidth="199" measuredHeight="23">
     <font bold="true"/>
   </widgets>
   <widgets xsi:type="model:Placeholder" id="18" x="75" y="89" width="16" height="16" measuredWidth="16" measuredHeight="16"/>

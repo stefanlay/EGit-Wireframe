@@ -31,6 +31,9 @@
     <screen href="CloneDestination.screen#/"/>
   </panels>
   <panels x="675" y="675">
-    <screen href="CloneDestinationWithProjectImport.screen#/"/>
+    <screen href="ProjectImport.screen#/"/>
+  </panels>
+  <panels x="975" y="675">
+    <screen href="ImportExistingProjects.screen#/"/>
   </panels>
 </story:Storyboard>

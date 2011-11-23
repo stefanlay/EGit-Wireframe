@@ -41,7 +41,7 @@
   <widgets xsi:type="model:Button" id="10" x="208" y="549" width="92" height="25" text="&lt; Back" measuredWidth="92" measuredHeight="25">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Button" id="11" x="300" y="549" width="92" height="25" text="Next >" measuredWidth="92" measuredHeight="25">
+  <widgets xsi:type="model:Button" id="11" x="300" y="549" width="92" height="25" text="Next >" measuredWidth="92" measuredHeight="25" link="ImportExistingProjects.screen">
     <font/>
   </widgets>
   <widgets xsi:type="model:Button" id="12" x="398" y="549" width="92" height="25" text="Finish" measuredWidth="92" measuredHeight="25" state="disabled">

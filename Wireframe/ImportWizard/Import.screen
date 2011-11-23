@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
-  <widgets xsi:type="model:Window" id="1" x="25" y="25" width="520" height="495" text="Import" measuredWidth="520" measuredHeight="495" maximizeButton="true"/>
+  <widgets xsi:type="model:Window" id="1" x="25" y="25" width="520" height="495" text="Import Projects from Git" measuredWidth="520" measuredHeight="495" maximizeButton="true"/>
   <widgets xsi:type="model:HLine" id="2" x="33" y="121" width="504" measuredWidth="504" measuredHeight="6"/>
   <widgets xsi:type="model:Label" id="3" x="48" y="138" text="Select an import source:" measuredWidth="132" measuredHeight="23">
     <font/>
