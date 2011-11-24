@@ -42,7 +42,7 @@
   </widgets>
   <widgets xsi:type="model:HLine" id="13" x="33" y="534" width="566" measuredWidth="566" measuredHeight="6"/>
   <widgets xsi:type="model:Icon" id="14" x="50" y="552" width="25" height="24" measuredWidth="25" measuredHeight="24" icon="image (small)"/>
-  <widgets xsi:type="model:Button" id="15" x="208" y="549" width="92" height="25" text="&lt; Back" measuredWidth="92" measuredHeight="25">
+  <widgets xsi:type="model:Button" id="15" x="208" y="549" width="92" height="25" text="&lt; Back" measuredWidth="92" measuredHeight="25" link="ProjectImport.screen">
     <font/>
   </widgets>
   <widgets xsi:type="model:Button" id="16" x="300" y="549" width="92" height="25" text="Next >" measuredWidth="92" measuredHeight="25" state="disabled">

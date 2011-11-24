@@ -2,23 +2,28 @@
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
   <widgets xsi:type="model:Window" id="1" x="25" y="25" width="525" height="500" text="Import Projects from Git" measuredWidth="525" measuredHeight="500" maximizeButton="true"/>
   <widgets xsi:type="model:HLine" id="2" x="33" y="121" width="509" measuredWidth="509" measuredHeight="6"/>
-  <widgets xsi:type="model:Tree" id="3" x="43" y="133" width="489" height="231" text="Local&#xA;Custom URL&#xA;Gerrit&#xA;Github&#xA;GitBlit&#xA;ProjectPortal&#xA;" measuredWidth="489" measuredHeight="231">
+  <widgets xsi:type="model:Tree" id="3" x="43" y="133" width="489" height="252" text="Local&#xA;Custom URL&#xA;Gerrit&#xA;- Eclipse - http://git.eclipse.org/r&#xA;- Android - https://review.android.org&#xA;Github&#xA;- Github - http://github.com&#xA;GitBlit&#xA;- Company repos http://ourserver/gitblit&#xA;ProjectPortal&#xA;- Company portal http://ourserver/projectportal" measuredWidth="489" measuredHeight="252">
     <items link="LocalRepo.screen" x="0" y="5" width="489" height="21" text="Local"/>
-    <items link="URL.screen" x="0" y="26" width="489" height="21" text="Custom URL"/>
-    <items link="GerritURL.screen" x="0" y="47" width="489" height="21" text="Gerrit"/>
-    <items link="Github.screen" x="0" y="68" width="489" height="21" text="Github"/>
-    <items link="GitBlitURL.screen" x="0" y="89" width="489" height="21" text="GitBlit"/>
-    <items link="ProjectPortalURL.screen" x="0" y="110" width="489" height="21" text="ProjectPortal"/>
+    <items link="CloneURL.screen" x="0" y="26" width="489" height="21" text="Custom URL"/>
+    <items x="0" y="47" width="489" height="21" text="Gerrit"/>
+    <items link="Gerrit.screen" x="0" y="68" width="489" height="21" text="- Eclipse - http://git.eclipse.org/r"/>
+    <items link="Gerrit.screen" x="0" y="89" width="489" height="21" text="- Android - https://review.android.org"/>
+    <items x="0" y="110" width="489" height="21" text="Github"/>
+    <items link="Github.screen" x="0" y="131" width="489" height="21" text="- Github - http://github.com"/>
+    <items x="0" y="152" width="489" height="21" text="GitBlit"/>
+    <items link="GitBlit.screen" x="0" y="173" width="489" height="21" text="- Company repos http://ourserver/gitblit"/>
+    <items x="0" y="194" width="489" height="21" text="ProjectPortal"/>
+    <items link="ProjectPortal.screen" x="0" y="215" width="489" height="21" text="- Company portal http://ourserver/projectportal"/>
   </widgets>
   <widgets xsi:type="model:HLine" id="6" x="33" y="464" width="509" measuredWidth="509" measuredHeight="6"/>
   <widgets xsi:type="model:Icon" id="7" x="50" y="482" width="25" height="24" measuredWidth="25" measuredHeight="24" icon="image (small)"/>
-  <widgets xsi:type="model:Button" id="8" x="151" y="479" width="92" height="25" text="&lt; Back" measuredWidth="92" measuredHeight="25" state="disabled">
+  <widgets xsi:type="model:Button" id="8" x="151" y="479" width="92" height="25" text="&lt; Back" measuredWidth="92" measuredHeight="25" link="Import.screen">
     <font/>
   </widgets>
   <widgets xsi:type="model:Button" id="9" x="243" y="479" width="92" height="25" text="Next >" measuredWidth="92" measuredHeight="25">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Button" id="10" x="341" y="479" width="92" height="25" text="Finish" measuredWidth="92" measuredHeight="25">
+  <widgets xsi:type="model:Button" id="10" x="341" y="479" width="92" height="25" text="Finish" measuredWidth="92" measuredHeight="25" state="disabled">
     <font/>
   </widgets>
   <widgets xsi:type="model:Button" id="11" x="439" y="479" width="92" height="25" text="Cancel" measuredWidth="92" measuredHeight="25">
@@ -28,7 +33,16 @@
   <widgets xsi:type="model:Label" id="13" x="39" y="63" text="Select a repository location" measuredWidth="156" measuredHeight="23">
     <font bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Text" id="14" x="44" y="88" width="423" height="33" text="If a repository is missing it does not support the requested operation." measuredWidth="423" measuredHeight="33">
+  <widgets xsi:type="model:Text" id="14" x="44" y="88" width="423" height="33" measuredWidth="423" measuredHeight="33">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="16" x="360" y="396" text="Add" measuredWidth="42" measuredHeight="25" link="GerritURL.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="17" x="416" y="396" text="Edit" measuredWidth="40" measuredHeight="25" link="GerritURL.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="18" x="467" y="396" text="Delete" measuredWidth="53" measuredHeight="25">
     <font/>
   </widgets>
   <hRuler/>

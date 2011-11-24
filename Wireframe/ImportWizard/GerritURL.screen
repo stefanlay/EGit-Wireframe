@@ -1,56 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
-  <widgets xsi:type="model:Window" id="1" x="25" y="25" width="572" height="535" text="Import Projects from Git" measuredWidth="572" measuredHeight="535" maximizeButton="true"/>
-  <widgets xsi:type="model:HLine" id="2" x="33" y="121" width="556" measuredWidth="556" measuredHeight="6"/>
-  <widgets xsi:type="model:Group" id="3" x="48" y="138" width="526" height="63" text="Location" measuredWidth="526" measuredHeight="63">
+  <widgets xsi:type="model:Window" id="1" x="25" y="25" width="525" height="434" text="Properties for Gerrit" measuredWidth="525" measuredHeight="434" maximizeButton="true"/>
+  <widgets xsi:type="model:HLine" id="2" x="33" y="121" width="509" measuredWidth="509" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="3" x="43" y="137" text="Server: " measuredWidth="43" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="4" x="56" y="163" text="URI:" measuredWidth="26" measuredHeight="23">
+  <widgets xsi:type="model:Combo" id="4" x="104" y="133" width="428" text="https://egit.eclipse.com/r" measuredWidth="428" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:TextField" id="5" x="147" y="158" width="344" text="http://egit.eclipse.org/r/" measuredWidth="344" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="5" x="43" y="164" text="Label: " measuredWidth="39" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Group" id="16" x="48" y="222" width="526" height="91" text="Authentication" measuredWidth="526" measuredHeight="91">
+  <widgets xsi:type="model:TextField" id="6" x="104" y="161" width="325" text="EGit" measuredWidth="325" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="17" x="56" y="240" text="User:" measuredWidth="31" measuredHeight="23">
+  <widgets xsi:type="model:Checkbox" id="7" x="434" y="163" text="Disconnected" measuredWidth="93" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:TextField" id="18" x="169" y="237" width="397" measuredWidth="397" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="8" x="43" y="190" text="User ID: " measuredWidth="48" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="19" x="56" y="266" text="Password:" measuredWidth="58" measuredHeight="23">
+  <widgets xsi:type="model:TextField" id="9" x="104" y="187" width="325" text="stefanlay" measuredWidth="325" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:TextField" id="20" x="169" y="263" width="397" measuredWidth="397" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="10" x="43" y="216" text="Password: " measuredWidth="61" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Label" id="21" x="56" y="289" text="Store in Secure Store" measuredWidth="113" measuredHeight="23">
+  <widgets xsi:type="model:TextField" id="11" x="104" y="213" width="325" text="********" measuredWidth="325" measuredHeight="23">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Checkbox" id="22" x="169" y="289" measuredWidth="21" measuredHeight="23">
+  <widgets xsi:type="model:Checkbox" id="12" x="434" y="215" text="Save Password" measuredWidth="98" measuredHeight="23" selected="true">
     <font/>
   </widgets>
-  <widgets xsi:type="model:HLine" id="23" x="33" y="499" width="556" measuredWidth="556" measuredHeight="6"/>
-  <widgets xsi:type="model:Icon" id="24" x="50" y="517" width="25" height="24" measuredWidth="25" measuredHeight="24" icon="image (small)"/>
-  <widgets xsi:type="model:Button" id="25" x="198" y="514" width="92" height="25" text="&lt; Back" measuredWidth="92" measuredHeight="25" state="disabled">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Button" id="26" x="290" y="514" width="92" height="25" text="Next >" measuredWidth="92" measuredHeight="25" link="Gerrit.screen">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Button" id="27" x="388" y="514" width="92" height="25" text="Finish" measuredWidth="92" measuredHeight="25" state="disabled">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Button" id="28" x="486" y="514" width="92" height="25" text="Cancel" measuredWidth="92" measuredHeight="25">
-    <font/>
-  </widgets>
-  <widgets xsi:type="model:Placeholder" id="29" x="514" y="55" width="75" height="66" measuredWidth="75" measuredHeight="66"/>
-  <widgets xsi:type="model:Label" id="30" x="39" y="63" text="Source GitBlit" measuredWidth="83" measuredHeight="23">
+  <widgets xsi:type="model:Label" id="13" x="58" y="244" text="Additional Settings" measuredWidth="110" measuredHeight="23">
     <font bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Text" id="31" x="44" y="88" width="470" height="33" text="Enter the location of GitBlit." measuredWidth="470" measuredHeight="33">
+  <widgets xsi:type="model:Label" id="14" x="58" y="269" text="Proxy Server Configuration" measuredWidth="157" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="16" x="33" y="397" width="509" measuredWidth="509" measuredHeight="6"/>
+  <widgets xsi:type="model:Button" id="17" x="44" y="412" width="123" height="26" text="Validate Settings" measuredWidth="123" measuredHeight="26">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="18" x="341" y="412" width="92" height="25" text="Finish" measuredWidth="92" measuredHeight="25" link="ImportSource.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="19" x="439" y="412" width="92" height="25" text="Cancel" measuredWidth="92" measuredHeight="25" link="ImportSource.screen">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Placeholder" id="20" x="467" y="55" width="75" height="66" measuredWidth="75" measuredHeight="66"/>
+  <widgets xsi:type="model:Label" id="21" x="39" y="63" text="Gerrit settings" measuredWidth="86" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="22" x="44" y="88" width="423" height="33" text="Enter gerrit settings" measuredWidth="423" measuredHeight="33">
     <font/>
   </widgets>
   <hRuler/>

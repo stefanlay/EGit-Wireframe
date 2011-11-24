@@ -27,7 +27,7 @@
   </widgets>
   <widgets xsi:type="model:HLine" id="8" x="33" y="499" width="556" measuredWidth="556" measuredHeight="6"/>
   <widgets xsi:type="model:Icon" id="9" x="50" y="517" width="25" height="24" measuredWidth="25" measuredHeight="24" icon="image (small)"/>
-  <widgets xsi:type="model:Button" id="10" x="198" y="514" width="92" height="25" text="&lt; Back" measuredWidth="92" measuredHeight="25">
+  <widgets xsi:type="model:Button" id="10" x="198" y="514" width="92" height="25" text="&lt; Back" measuredWidth="92" measuredHeight="25" link="Gerrit.screen">
     <font/>
   </widgets>
   <widgets xsi:type="model:Button" id="11" x="290" y="514" width="92" height="25" text="Next >" measuredWidth="92" measuredHeight="25" link="CloneDestination.screen">

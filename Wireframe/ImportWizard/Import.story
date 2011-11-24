@@ -9,6 +9,9 @@
   <panels x="975" y="75">
     <screen href="LocalRepo.screen#/"/>
   </panels>
+  <panels x="75" y="1275">
+    <screen href="CloneURL.screen#/"/>
+  </panels>
   <panels x="675" y="75">
     <screen href="GerritURL.screen#/"/>
   </panels>
@@ -18,8 +21,14 @@
   <panels x="375" y="375">
     <screen href="Github.screen#/"/>
   </panels>
+  <panels x="375" y="975">
+    <screen href="GitBlitURL.screen#/"/>
+  </panels>
   <panels x="675" y="375">
     <screen href="GitBlit.screen#/"/>
+  </panels>
+  <panels x="675" y="975">
+    <screen href="ProjectPortalURL.screen#/"/>
   </panels>
   <panels x="975" y="375">
     <screen href="ProjectPortal.screen#/"/>

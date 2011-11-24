@@ -64,7 +64,7 @@
   </widgets>
   <widgets xsi:type="model:HLine" id="23" x="33" y="499" width="556" measuredWidth="556" measuredHeight="6"/>
   <widgets xsi:type="model:Icon" id="24" x="50" y="517" width="25" height="24" measuredWidth="25" measuredHeight="24" icon="image (small)"/>
-  <widgets xsi:type="model:Button" id="25" x="198" y="514" width="92" height="25" text="&lt; Back" measuredWidth="92" measuredHeight="25" state="disabled">
+  <widgets xsi:type="model:Button" id="25" x="198" y="514" width="92" height="25" text="&lt; Back" measuredWidth="92" measuredHeight="25" link="ImportSource.screen">
     <font/>
   </widgets>
   <widgets xsi:type="model:Button" id="26" x="290" y="514" width="92" height="25" text="Next >" measuredWidth="92" measuredHeight="25" link="BranchSelection.screen">

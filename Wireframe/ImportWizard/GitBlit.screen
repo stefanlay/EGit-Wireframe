@@ -13,7 +13,7 @@
   </widgets>
   <widgets xsi:type="model:HLine" id="8" x="33" y="514" width="509" measuredWidth="509" measuredHeight="6"/>
   <widgets xsi:type="model:Icon" id="9" x="50" y="532" width="25" height="24" measuredWidth="25" measuredHeight="24" icon="image (small)"/>
-  <widgets xsi:type="model:Button" id="10" x="151" y="529" width="92" height="25" text="&lt; Back" measuredWidth="92" measuredHeight="25">
+  <widgets xsi:type="model:Button" id="10" x="151" y="529" width="92" height="25" text="&lt; Back" measuredWidth="92" measuredHeight="25" link="ImportSource.screen">
     <font/>
   </widgets>
   <widgets xsi:type="model:Button" id="11" x="243" y="529" width="92" height="25" text="Next >" measuredWidth="92" measuredHeight="25" link="BranchSelection.screen">
